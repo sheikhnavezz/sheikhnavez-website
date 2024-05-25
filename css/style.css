@@ -989,7 +989,8 @@ h1, h2, h3, h4, h5, h6, figure {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px; /* You can adjust the height as needed */
+  height: 100%; /* You can adjust the height as needed */
+  width: 100%;
   padding: 50px 0 ; /* You can adjust the padding as needed */;
 }
 
