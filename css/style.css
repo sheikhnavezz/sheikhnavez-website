@@ -914,6 +914,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-consult {
+  margin-top: 40px;
+  margin-left: 1.5%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -966,6 +968,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-video {
+  
   overflow: hidden;
 }
 @media screen and (max-width: 992px) {
@@ -974,15 +977,16 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-video .overlay {
-  position: absolute;
+ 
+  /* position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.1);
-  -webkit-transition: 0.5s;
+  /* -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s;
+  transition: 0.5s; */ */
 }
 
 #fh5co-footer {
